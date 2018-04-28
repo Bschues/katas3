@@ -1,12 +1,9 @@
 for (let i = 1; i <= 20; i++) {
-
   var prob1 = document.createElement("div");
 
   prob1.className = "katas1output";
 
   prob1.style.height = 25 + "px";
-
-
 
   var ktext = document.createTextNode("output - " + i);
 
@@ -17,6 +14,8 @@ for (let i = 1; i <= 20; i++) {
 
   placement.appendChild(prob1);
 }
+
+
 for (let i = 2; i <= 20; i += 2) {
   var prob2 = document.createElement("div");
 
@@ -32,6 +31,8 @@ for (let i = 2; i <= 20; i += 2) {
 
   placement2.appendChild(prob2);
 }
+
+
 for (let i = 1; i <= 20; i += 2) {
   var prob3 = document.createElement("div");
 
@@ -48,6 +49,8 @@ for (let i = 1; i <= 20; i += 2) {
   placement3.appendChild(prob3);
 
 }
+
+
 for (let i = 5; i <= 100; i += 5) {
   var prob4 = document.createElement("div");
 
@@ -63,18 +66,37 @@ for (let i = 5; i <= 100; i += 5) {
 
   placement4.appendChild(prob4);
 }
+
+
 for (let i = 0; i <= 10; i++) {
   var prob5 = document.createElement("div");
-  
+
   prob5.className = "katas5output";
 
   prob5.style.height = 25 + "px";
 
-  var ktext5 = document.createTextNode("output - " + i*i);
+  var ktext5 = document.createTextNode("output - " + i * i);
 
   prob5.appendChild(ktext5);
 
   var placement5 = document.getElementById("d5");
 
   placement5.appendChild(prob5);
+}
+
+
+for (let i = 20; i>=0; i-=1) {
+  var prob6 = document.createElement("div");
+
+  prob6.className = "katas6output";
+
+  prob6.style.height = 25 + "px" ;
+
+  var ktext6 = document.createTextNode("output - " + i);
+
+  prob6.appendChild(ktext6);
+
+  var placement6 = document.getElementById("d6");
+
+  placement6.appendChild(prob6);
 }

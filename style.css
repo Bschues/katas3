@@ -7,6 +7,7 @@ h1 {
     display: flex ;
     flex-direction: row ;
     width: 100% ;
+    color: beige;
 }
 div {
   flex-direction: column ;
@@ -14,26 +15,30 @@ div {
   border: 0.5px rgb(11, 9, 3) solid ;
   text-align: center ;
   border-collapse: collapse;
-
+  
 }
 #colhead {
-    background-color: powderblue ;
+    background-color: rgb(235, 213, 171);
     font-size: 15px ;
     text-align: center ;
     padding: 5px;
+    border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 #d1 {
-    background-color: khaki;
+    background-color: rgb(140, 240, 152);
+     
 }
 
 .katas1output {
     display: flex;
     padding: 5px;
+    
 }
 
 #d2 {
-    background-color: indianred;
+    background-color: honeydew;
     height: fit-content;
     
 }
@@ -44,7 +49,7 @@ div {
 }
 
 #d3 {
-    background-color: khaki;
+    background-color: rgb(140, 240, 152);
     height: fit-content;
 }
 
@@ -54,11 +59,20 @@ div {
 }
 
 #d4 {
-    background-color: indianred;
+    background-color: honeydew;
     height: fit-content;
 }
 
 #d5 {
-    background-color: khaki;
+    background-color: rgb(140, 240, 152);
+    height: fit-content;
+}
+
+.katas3output {
+    display: flex;
+    padding: 5px;
+}
+#d6 {
+    background-color: honeydew;
     height: fit-content;
 }
