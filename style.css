@@ -1,21 +1,21 @@
 body {
-    background-color: dimgray ;
+    background-color: deepskyblue ;
     display: flex ;
     flex-wrap: wrap ;
      }
 h1 {
     display: flex ;
-    flex-direction: row ;
+    flex-direction: column ;
     width: 100% ;
     color: beige;
+    align-items: center;
 }
 div {
-  flex-direction: column ;
+  flex-direction: row ;
   flex-wrap: wrap ;
   border: 0.5px rgb(11, 9, 3) solid ;
   text-align: center ;
   border-collapse: collapse;
-  
 }
 #colhead {
     background-color: rgb(235, 213, 171);
@@ -25,22 +25,18 @@ div {
     border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-
-#d1 {
+.greenish {
     background-color: rgb(140, 240, 152);
-     
+    height: fit-content;
+    width: 100vw;
 }
-
+.melon {
+    background-color: honeydew;
+    height: fit-content;
+}
 .katas1output {
     display: flex;
     padding: 5px;
-    
-}
-
-#d2 {
-    background-color: honeydew;
-    height: fit-content;
-    
 }
 
 .katas2output {
@@ -48,31 +44,59 @@ div {
     padding: 5px;
 }
 
-#d3 {
-    background-color: rgb(140, 240, 152);
-    height: fit-content;
-}
-
 .katas3output {
     display: flex;
     padding: 5px;
 }
 
-#d4 {
-    background-color: honeydew;
-    height: fit-content;
-}
-
-#d5 {
-    background-color: rgb(140, 240, 152);
-    height: fit-content;
-}
-
-.katas3output {
+.katas4output {
     display: flex;
     padding: 5px;
 }
-#d6 {
-    background-color: honeydew;
-    height: fit-content;
+
+.katas5output {
+    display: flex;
+    padding: 5px;
+}
+
+.katas6output {
+    display: flex;
+    padding: 5px;
+}
+
+.katas7output {
+    display: flex;
+    padding: 5px;
+}
+.katas8output {
+    display: flex;
+    padding: 5px;
+}
+
+.katas22outputred {
+    background-color: red;
+    border-top-color: honeydew;
+    border-bottom-color: honeydew;
+    border-right-color: honeydew;
+    border-top-right-radius: 90%;
+    border-bottom-right-radius: 5%;
+}
+.katas22outputgray{
+    background-color: gray;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 90%;
+}
+.katas23outputred {
+    background-color: red;
+    border-top-color: rgb(140, 240, 152);
+    border-bottom-color: rgb(140, 240, 152);
+    border-right-color: rgb(140, 240, 152);
+    border-radius: 45px;
+}
+.katas23outputgray {
+    background-color: gray;
+    border-bottom-color: rgb(140, 240, 152);
+    border-top-color: rgb(140, 240, 152);
+    border-right-color: rgb(140, 240, 152);
+    border-radius: 45px;
 }
