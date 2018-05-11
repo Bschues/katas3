@@ -34,44 +34,6 @@ div {
     background-color: honeydew;
     height: fit-content;
 }
-.katas1output {
-    display: flex;
-    padding: 5px;
-}
-
-.katas2output {
-    display: flex;
-    padding: 5px;
-}
-
-.katas3output {
-    display: flex;
-    padding: 5px;
-}
-
-.katas4output {
-    display: flex;
-    padding: 5px;
-}
-
-.katas5output {
-    display: flex;
-    padding: 5px;
-}
-
-.katas6output {
-    display: flex;
-    padding: 5px;
-}
-
-.katas7output {
-    display: flex;
-    padding: 5px;
-}
-.katas8output {
-    display: flex;
-    padding: 5px;
-}
 
 .katas22outputred {
     background-color: red;
